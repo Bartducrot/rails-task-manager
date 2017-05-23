@@ -1,0 +1,13 @@
+<div>
+  <h1>
+    <%= @task.name %>
+  </h1>
+  <p>
+    <%= @task.description %>
+  </p>
+</div>
+
+<div>
+  <%= link_to "edit", edit_task_path %>
+  <%= link_to "back to home page", tasks_path %>
+</div>
